@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+
+<main role="main" class="inner cover">
+        <h1 class="cover-heading">About me</h1><br>
+        <div class="person1" style="float:left; display:inline-block;">
+        <span class="img-box" style="float:left;width: 20%;">
+                <br>
+        <img alt="Photo" hspace="10" class="center-fit" src={% static 'img/ja.jpg'%}>
+                </span>
+        <span style="float:right;width: 80%;">
+        <p>
+                <ul style="list-style-type:disc" class="lead">
+                        <a>
+
+                                <font size="+2"><b>Python Developer,</b></font> currently a Junior Full Stack Developer based in Barcelona - mostly focused on the Django backend
+                                and cloud DevOps tasks. Previously a Google Cloud Platform Support Engineer and a Bioinformatician.
+                                All my job history with further description can be found in <a href="https://www.linkedin.com/in/arudzinska" target="_blank">LinkedIn</a>.<br>
+                        </li><br>
+
+
+                        <li>
+                                <font size="+2"><b>Tech stack I'm in love with:</b></font> Python frameworks (Django, Flask), Linux, Docker containerization and
+                                all that involves Amazon Web Services or Google Cloud Platform - the clouds are my playground!
+                        </li><br>
+                        <li>
+                                <font size="+2"><b>Other stack I've been working with:</b></font> PostgreSQL, Jenkins, SaltStack, JavaScript, Jira, Bitbucket, GitHub. And looking forward to learn more!
+                        </li><br>
+                        <li>
+                                <font size="+2"><b>Bioinformatician by degree, Software Developer by passion.</b></font> After completing the Master degree in Bioinformatics,
+                                I decided to leave scientific fields to fully devote to computers and programming - and do the work I enjoy the most.
+                        </li><br>
+                        <li>
+                                <font size="+2"><b>Barcelona Python Meetup</b></font> regular attendee.
+                        </li>
+                        <br>
+                </ul>
+        </p>
+                </span>
+        </div>
+
+        <p class="lead">
+                <font size="+3"><b>Alright... but apart from work?</b></font>
+        </p>
+                <p class="lead">
+                        Music - singing, playing guitar, concerts. Astrophysics & cosmology. Languages - both my native and the foreign ones.
+
+
+        </p>
+
+</main>
+{% endblock %}

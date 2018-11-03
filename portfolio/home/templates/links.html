@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+<main role="main" class="inner cover">
+
+        <h1 class="cover-heading">Links</h1>
+        <br><br><br>
+
+        <div class="row justify-content-center">
+        <div class="column">
+                <a href="https://www.linkedin.com/in/arudzinska" target="_blank">
+                <img alt="LinkedIn profile" hspace="40" src={% static 'img/linkedin_logo.png'%} width="70"></a>
+        </div>
+        <div class="column">
+                <a href="https://stackoverflow.com/users/8654161/arudzinska?tab=profile" target="_blank">
+                <img alt="Stack Overflow profile" hspace="40" src={% static 'img/so_logo.png'%} width="70"></a>
+        </div>
+        <div class="column">
+                <a href="https://github.com/arudzinska" target="_blank">
+                <img alt="Github profile" hspace="40" src={% static 'img/github_logo.png'%} width="80"></a>
+        </div>
+        </div>
+
+
+</main>
+{% endblock %}
